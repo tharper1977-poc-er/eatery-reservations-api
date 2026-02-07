@@ -1,0 +1,13 @@
+﻿# User Services - BE-User Team
+/src/UserServices/**             @tharper1977-poc-er/be-user-team
+/tests/UserServices*/**          @tharper1977-poc-er/be-user-team
+
+# Reservation Services - BE-Reservation Team  
+/src/ReservationServices/**      @tharper1977-poc-er/be-reservation-team
+/tests/ReservationServices*/**   @tharper1977-poc-er/be-reservation-team
+
+# Shared requires both teams
+/src/Shared/**                   @tharper1977-poc-er/be-user-team @tharper1977-poc-er/be-reservation-team
+
+# Database team reviews migrations
+**/Migrations/**                 @tharper1977-poc-er/database-team
